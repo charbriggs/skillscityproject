@@ -15,10 +15,10 @@ export default function Navbar({ name }) {
         -mt-20
         ;
         ">
-                <Link className="text-teal-400 pr-4 font-bold" href="/index">Home</Link>
-                <Link className="text-teal-400 pr-4 font-bold" href="/bookspage">About</Link>
-                <Link className="text-teal-400 pr-4 font-bold" href="/projects">Work</Link>
-                <Link className="text-teal-400 pr-4 font-bold" href="/contactpage">Contact</Link>
+                <Link className="text-teal-500 pr-4 font-bold" href="/index">Home</Link>
+                <Link className="text-teal-500 pr-4 font-bold" href="/bookspage">About</Link>
+                <Link className="text-teal-500 pr-4 font-bold" href="/projects">Work</Link>
+                <Link className="text-teal-500 pr-4 font-bold" href="/contactpage">Contact</Link>
                 
               </div>
               </div>
