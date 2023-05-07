@@ -1,25 +1,18 @@
+
 import Link from "next/link";
 import Hero from "../components/home/hero";
-import Bio from "../components/home/bio";
 import Navbar from "../components/home/navbar";
-import Photo from "../components/home/photo";
-import Skillsgrid from "../components/home/skillsgrid";
+import Footer from "../components/home/footer";
 
 export default function Homepage() {
   return (
-    <div className="w-full py-10 bg-zinc-800 pt-20">
+    <div className="bg-background1 bg-cover font-akira scroll-smooth">
+    <div className="w-full py-10 pt-20">
      <Navbar />
       <Hero
-        name="Hi, I'm Charlotte..."
+        name="Charlotte Briggs Alves"
       />
-      <Photo />
-      <Skillsgrid />
-      
-
-       
-          
-     
-
-    </div>
+      <Footer />
+    </div></div>
   )
 }
