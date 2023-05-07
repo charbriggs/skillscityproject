@@ -6,7 +6,17 @@ module.exports = {
  
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'background1': "url('../public/assets/background1.jpg')",
+      },
+      fontFamily: {
+        akira: ["AKIRA", 'sans-serif'],
+        
+  
+      }
+    },
+    
   },
   plugins: [],
 }
