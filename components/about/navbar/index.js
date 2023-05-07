@@ -1,5 +1,5 @@
 import Link from "next/link"
-export default function Navbar({ name }) {
+export default function Navbar() {
     return (
       
       <div className="w-screen">
